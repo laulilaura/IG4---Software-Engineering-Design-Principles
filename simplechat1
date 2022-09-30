@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T08:35:12.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="MrIxojEmreFlIUUIrRvT" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-30T09:11:51.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="e4QXx7qak9_PJniOC1sr" version="20.3.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2012" dy="1777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,6 +97,67 @@
         </mxCell>
         <mxCell id="cBqqA_YQuJcbSFDbHeFJ-17" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-340" y="145" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-18" value="&lt;font face=&quot;Garamond&quot; style=&quot;font-size: 11px;&quot;&gt;1.&amp;nbsp;diagramme de classe de simplechat1 utilisant les classes de OCSF à partir du code.&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-370" y="-140" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-19" value="" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontFamily=Garamond;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="-140" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-20" value="&lt;font face=&quot;Garamond&quot; style=&quot;font-size: 11px;&quot;&gt;2.&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;diagramme de séquence&amp;nbsp;pour envoyer un message du client vers le serveur coté client&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="-140" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-32" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="55" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-33" value=":ClientConsole" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1150" y="-35" width="100" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-34" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="cBqqA_YQuJcbSFDbHeFJ-33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-60" y="120" as="sourcePoint" />
+            <mxPoint x="50" y="119.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-35" value="accept()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cBqqA_YQuJcbSFDbHeFJ-34">
+          <mxGeometry x="-0.3699" y="-2" relative="1" as="geometry">
+            <mxPoint x="5" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-36" value=":ChatClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1360" y="-35" width="100" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-37" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="cBqqA_YQuJcbSFDbHeFJ-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1200" y="95" as="sourcePoint" />
+            <mxPoint x="1360" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-38" value="handleMessageFromClientUI()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cBqqA_YQuJcbSFDbHeFJ-37">
+          <mxGeometry x="0.0871" y="-1" relative="1" as="geometry">
+            <mxPoint x="-14" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-39" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cBqqA_YQuJcbSFDbHeFJ-36" target="cBqqA_YQuJcbSFDbHeFJ-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1410" y="135" as="sourcePoint" />
+            <mxPoint x="1570" y="135" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1530" y="115" />
+              <mxPoint x="1530" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-40" value="sendToServer()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cBqqA_YQuJcbSFDbHeFJ-39">
+          <mxGeometry x="-0.5233" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-41" value="" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontFamily=Garamond;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="990" y="-135" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="cBqqA_YQuJcbSFDbHeFJ-42" value="&lt;font face=&quot;Garamond&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;3.&amp;nbsp;diagramme de sequence pour afficher un message reçu cote client&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1036" y="-140" width="410" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
